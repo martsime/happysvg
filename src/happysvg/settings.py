@@ -25,7 +25,7 @@ SECRET_KEY = '2te)veat=3wlcp+lgao2s*bbxo_5!-y2y3up=4kb71szg)@=*3'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["lion.orakel.ntnu.no"]
 
 
 # Application definition
@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'happysvg',
+    'bootstrap3',
 ]
 
 MIDDLEWARE = [
